@@ -164,8 +164,8 @@
 	"bootm_size=0x10000000\0" \
 	"console=ttyS0,115200\0" \
 	"panicarg=panic=10\0" \
-	"extraargs=\0" \
-	"loglevel=8\0" \
+	"extraargs=consoleblank=0\0" \
+	"loglevel=0\0" \
 	"scriptaddr=0x44000000\0" \
 	"device=mmc\0" \
 	"partition=0:1\0" \
